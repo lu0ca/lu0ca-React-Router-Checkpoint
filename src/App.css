@@ -1,0 +1,24 @@
+.moviecard{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+   
+}
+.App {
+  background: linear-gradient(#3a136b, #211434);
+}
+
+  .Moviedetails{
+    height: 550px;
+  }
+
+
+.footer{
+  background: #362252;
+  height: 50px;
+  color: white;
+  font-weight: bold;
+  padding: 0px 20px;
+  text-align: end;
+  padding-top: 10px;
+}

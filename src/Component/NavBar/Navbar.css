@@ -1,0 +1,77 @@
+.input{
+    
+    border-radius: 10px;
+    padding-left: 10px;
+    height: 40px;
+    color: black;
+    margin-right: 20px;
+    margin-left: 20px;
+    background: white;
+   
+}
+.input::placeholder {
+    color: black;
+  }
+  
+.input:focus{
+  outline: none;
+  color: black;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+.starplusinput{
+    display: flex;
+    justify-content: center;
+}
+.reactstars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav_link{
+    display: flex;
+    justify-content: space-around; 
+    font-size: 18px;
+    width: 280px;
+}
+.Home-link{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 10px;
+    font-size: 18px;
+    color: white;
+    font-weight:600 ;
+}
+.Home-link:hover{
+    color: rgb(34, 140, 240);
+    text-decoration: none;
+}
+
+.link{
+    color: white;
+    font-weight:600 ;
+}
+.link:hover{
+    color: rgb(34, 140, 240);
+}
+ 
+.Add_btn{
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    width: 120px;
+    border: none;
+    color: rgb(34, 140, 240);
+    font-weight: 600;
+}
